@@ -17,7 +17,7 @@
 <body>
   <header class="header">
     <div class="header__logo logo">
-      <img src="/img/Logo.svg" alt="" />
+      <a href="#"><img src="/img/Logo.svg" alt="" /></a>
     </div>
     <div class="header__title">
       <h2>Architecture</h2>
@@ -156,15 +156,35 @@
       </div>
       
       <form class="contact__form" action="#">
-        <input type="text" name="name" id="name">
-        <input type="email" name="mail" id="mail">
-        <input type="tel" name="phone" id="phone">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="mail" id="mail" placeholder="Email">
+        <input type="tel" name="phone" id="phone" placeholder="Phone">
+        <button class="contact-button">get contact</button>
       </form>
       
       
     </div>
 
   </main>
+
+  <footer class="footer">
+    <div class="footer__nav-bar nav-bar">
+      <div class="nav-bar__links">
+        <a href="#" class="nav-bar__link">home</a>
+        <a href="#" class="nav-bar__link">projects</a>
+        <a href="#" class="nav-bar__link">contacts</a>
+        <a href="#" class="nav-bar__link">services</a>
+        <a href="#" class="nav-bar__link">about</a>
+        <a href="#" class="nav-bar__link">blog</a>
+      </div>
+    </div>
+    <div class="footer__links">
+      <a href="#" class="footer-link"><img src="/img/facebook-icon.svg" alt=""></a>
+      <a href="#" class="footer-link"><img src="/img/twitter-icon.svg" alt=""></a>
+      <a href="#" class="footer-link"><img src="/img/pinterest-icon.svg" alt=""></a>
+    </div>
+    
+  </footer>
 
 </body>
 
